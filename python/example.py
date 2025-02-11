@@ -20,7 +20,7 @@ def alg_data_gen(size):
 # Parameters
 base_size = 2 ** 5  # The smallest dimensional size
 num_test = 3        # Number of different input sizes to test
-repeat = 5          # Number of repetitions for each input size
+repeat = 10          # Number of repetitions for each input size
 
 # Run ETC calculation
 outputs = ETC(alg, alg_data_gen, base_size, num_test, repeat)
