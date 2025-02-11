@@ -7,7 +7,7 @@ algDataGen_ = @algDataGen;
 
 baseSize = 2^7; % The smallest dimensional size.
 numTest = 3; % Number of different input sizes to test runtimes and ETCs.
-repeat = 5; % Number of repetition for each input size.
+repeat = 10; % Number of repetition for each input size.
 
 etc = ETC(alg, algDataGen_, baseSize, numTest, repeat);
 
